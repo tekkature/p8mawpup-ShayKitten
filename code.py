@@ -17,4 +17,3 @@ regex = '<p id="rawCount" style="display: none;">(.+?)</p>'
 pattern = re.compile(regex)
 Subscribers = re.findall(pattern,htmltext)
 print Subscribers
-
